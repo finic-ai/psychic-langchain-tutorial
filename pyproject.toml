@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "psychic-langchain-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["Jason Fan <jason.wc.fan@gmail.com>"]
+readme = "README.md"
+packages = [{include = "psychic_langchain_tutorial"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.174"
+fastapi = "^0.95.2"
+psychicapi = "^0.4"
+python-dotenv = "^1.0.0"
+openai = "^0.27.7"
+chromadb = "^0.3.23"
+tiktoken = "^0.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
