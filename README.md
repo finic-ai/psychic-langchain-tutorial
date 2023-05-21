@@ -2,6 +2,8 @@
 
 This is the code for the [How to use LangChain and Psychic to answer questions about your documents with AI](https://www.psychic.dev/post/langchain-psychic-q-and-a) tutorial. There are two ways to run this app.
 
+Psychic is a data integration platform for LLM applications. Learn more by reading the [Psychic Docs](https://docs.psychic.dev/introduction).
+
 ## Python notebook
 `psychic_notebook.ipynb` is a Python notebook, which makes it easy to play around with the functionality without cloning this repo. Run it with [Google Colab](https://colab.research.google.com/) or [Jupyter Notebook](https://jupyter.org/) or just copy the hosted version [here](https://colab.research.google.com/drive/1gShmRMig-nBQYn5GBAyRDNlw8dgWbbw2?usp=sharing)
 
@@ -24,5 +26,3 @@ This is the code for the [How to use LangChain and Psychic to answer questions a
     }
     ```
 5. Deploy with your favorite cloud hosting provider.
-
-Learn more by reading the [Psychic Docs](https://docs.psychic.dev/introduction).
