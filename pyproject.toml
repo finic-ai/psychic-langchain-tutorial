@@ -10,7 +10,7 @@ packages = [{include = "psychic_langchain_tutorial"}]
 python = "^3.10"
 langchain = "^0.0.174"
 fastapi = "^0.95.2"
-psychicapi = "^0.4"
+psychicapi = "^0.7.3"
 python-dotenv = "^1.0.0"
 openai = "^0.27.7"
 chromadb = "^0.3.23"

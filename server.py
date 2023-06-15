@@ -1,6 +1,5 @@
 import os
 import sys
-import pdb
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -15,7 +14,7 @@ from fastapi import FastAPI, Request
 
 # Create a document loader for Notion. We can also load from other connectors e.g. ConnectorId.gdrive
 psychic = Psychic(secret_key=os.getenv("PSYCHIC_SECRET_KEY"))
-raw_docs = psychic.get_documents(ConnectorId.notion, "connection_id") #replace connection_id with the connection ID you set while creating a new connection at https://dashboard.psychic.dev/playground
+raw_docs = psychic.get_documents(connector_id=ConnectorId.notion, account_id="account_id") #replace account_id with the account ID you set while creating a new connection at https://dashboard.psychic.dev/playground
 
 documents = [
     Document(page_content=doc["content"], metadata={"title": doc["title"], "source": doc["uri"]},)
