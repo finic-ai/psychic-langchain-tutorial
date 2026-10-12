@@ -1,3 +1,5 @@
+> **This is a legacy tutorial from Psychic, the company now called Finic, and is no longer maintained. The Psychic service it depends on is no longer available, so the code will not run as written.** Finic now builds AI to stop fraud, abuse and financial crimes: [Finic Grayson](https://docs.finic.ai), a decision model API for real-time fraud and risk decisions, and agents for fraud investigations. See [finic.ai](https://finic.ai).
+
 # Psychic LangChain tutorial
 
 This is the code for the [How to use LangChain and Psychic to answer questions about your documents with AI](https://www.psychic.dev/post/langchain-psychic-q-and-a) tutorial. There are two ways to run this app.
